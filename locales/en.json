@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "flat":"Flats",
+    "news":"Blog",
+    "destinations":"Destinations",
+    "contact": "Contact",
+    "login":"Log In",
+    "signin":"Sign Up",
+    "selectLanguage":"Select Language"
+
+  },
+  "banner": {
+    "title": "TO FIND THE UNFORGETTABLE",
+    "text": "With its world-class amenities and location, Guest24 offers a unique living experience with fully equipped apartments for those seeking an exclusive lifestyle in Istanbul, Vienna, Leipzig, Hadersdorf am Kamp and Northern Cyprus.",
+    "location": "Location",
+    "locationPlaceholder": "Select Location",
+    "checkin": "Check-in",
+    "checkinPlaceholder": "Add date",
+    "checkout": "Check-out",
+    "checkoutPlaceholder": "Add date",
+    "guests": "Guests",
+    "guestsPlaceholder": "adult",
+    "guestsPlaceholderTwo": "child",
+    "adults": "Adults",
+    "children": "Children",
+    "button": "Search"
+  },
+  "about": {
+    "text1": "Guest24 is a digital accommodation platform that brings together a wide portfolio of exclusive apartments with its distinguished guests and offers them the opportunity to benefit from special advantages and discounts. Here, we bring together the opportunities of the hospitality industry spanning continents and cities with a special privilege for you.",
+    "text2": "We find the perfect one for both the hosts and our valued guests, redefining the boundaries of the accommodation industry regarding elegance and exclusivity.",
+    "text3": "Because Guest24 is there for you to find the unforgettable…",
+    "text4": "Thanks to our portfolio covering dozens of apartments in Istanbul, Vienna, Leipzig, Hadersdorf am Kamp and Northern Cyprus, we offer apartments with everything necessary for an unforgettable accommodation experience with their location, features and living standards, with you, our distinguished guests, who we know are not content with less than perfect.",
+    "text5": "Because Guest24 exists to take you beyond the ordinary…",
+    "text6": "Guest24 selects private homes from private hosts and offers them to members of its exclusive guest community with special offers and discounts. Thus, you are entitled to a host of benefits and discounts that take your stay to new heights of luxury, while enjoying exclusive access to hidden gems of accommodation that remain hidden for the casual traveler. Our belief in the importance of rewarding you, our valued guests, makes both Guest24 and your accommodation experience unique."
+  }
+}

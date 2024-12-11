@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "news":"Blog",
+    "destinations":"Gidilecek Yerler",
+    "contact": "İletişim",
+    "login":"Oturum Açın",
+    "signin":"Kaydolun",
+    "selectLanguage":"Select Language"
+
+  },
+  "banner": {
+    "title": "UNUTULMAZI BULMAK İÇİN",
+    "text": "Guest24, dünya standartlarındaki olanakları ve konumuyla İstanbul, Viyana, Leipzig, Hadersdorf am Kamp ve Kuzey Kıbrıs'ta seçkin bir yaşam tarzı arayanlar için tam donanımlı daireleriyle benzersiz bir yaşam deneyimi sunuyor.",
+    "location": "Konum",
+    "locationPlaceholder": "Konum Seçin",
+    "checkin": "Giriş",
+    "checkinPlaceholder": "Tarih Seçin",
+    "checkout": "Çıkış",
+    "checkoutPlaceholder": "Tarih Seçin",
+    "guests": "Misafirler",
+    "guestsPlaceholder": "yetişkin",
+    "guestsPlaceholderTwo": "çocuk",
+    "adults": "Yetişkinler",
+    "children": "Çocuklar",
+    "button": "Ara"
+  },
+  "about": {
+    "text1": "Guest24, seçkin dairelerden oluşan geniş bir portföyü seçkin misafirleriyle buluşturan, onlara özel avantaj ve indirimlerden yararlanma fırsatı sunan dijital bir konaklama platformudur. Burada konaklama sektörünün kıtalara ve şehirlere yayılan fırsatlarını size özel bir ayrıcalıkla bir araya getiriyoruz.",
+    "text2": "Hem ev sahipleri hem de değerli misafirlerimiz için en mükemmel olanı buluyor, konaklama sektörünün şıklık ve ayrıcalık konusundaki sınırlarını yeniden tanımlıyoruz.",
+    "text3": "Çünkü Guest24 unutulmaz olanı bulmanız için var...",
+    "text4": "İstanbul, Viyana, Leipzig, Hadersdorf am Kamp ve Kuzey Kıbrıs'ta onlarca daireyi kapsayan portföyümüz sayesinde konumu, özellikleri ve yaşam standartlarıyla unutulmaz bir konaklama deneyimi için gerekli her şeye sahip daireleri, mükemmelden daha azıyla yetinmeyeceğini bildiğimiz siz değerli misafirlerimizle buluşturuyoruz.",
+    "text5": "Çünkü Guest24 sizi sıradanlığın ötesine taşımak için var...",
+    "text6": "Guest24, özel ev sahiplerinden özel evler seçer ve bunları özel teklifler ve indirimlerle seçkin konuk topluluğunun üyelerine sunar. Böylece, sıradan gezginler için gizli kalmış konaklama mücevherlerine özel erişimin tadını çıkarırken, konaklamanızı lüksün yeni zirvelerine taşıyan bir dizi avantaj ve indirim hakkına sahip olursunuz. Siz değerli misafirlerimizi ödüllendirmenin önemine olan inancımız, hem Guest24'ü hem de konaklama deneyiminizi benzersiz kılmaktadır."
+  }
+}

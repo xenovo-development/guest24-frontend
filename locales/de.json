@@ -8,8 +8,10 @@
     "contact": "Kontakt",
     "login":"Anmelden",
     "signin":"Einsingen",
-    "selectLanguage":"Select Language"
-
+    "selectLanguage":"Select Language",
+    "english":"Englisch",
+    "german":"Deutsch",
+    "turkish":"Türkisch"
   },
   "banner": {
     "title": "DAS UNVERGESSLICHE FINDEN",

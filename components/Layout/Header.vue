@@ -108,9 +108,9 @@
                           >
                         </li>
                         <li>
-                          <nuxt-link :to="localePath('/')"
-                            >{{ $t("nav.destinations") }}</nuxt-link
-                          >
+                          <nuxt-link :to="localePath('/')">{{
+                            $t("nav.destinations")
+                          }}</nuxt-link>
                         </li>
                         <li>
                           <nuxt-link :to="localePath('/')">{{
@@ -134,13 +134,19 @@
                       <span class="current">{{ currentLanguageName }}</span>
                       <ul class="list">
                         <li class="option" @click="changeLanguage('en')">
-                          <img src="/img/page/language.svg" alt="" />English
+                          <img src="/img/page/language.svg" alt="" />{{
+                            $t("nav.english")
+                          }}
                         </li>
                         <li class="option" @click="changeLanguage('de')">
-                          <img src="/img/page/language.svg" alt="" />German
+                          <img src="/img/page/language.svg" alt="" />{{
+                            $t("nav.german")
+                          }}
                         </li>
                         <li class="option" @click="changeLanguage('tr')">
-                          <img src="/img/page/language.svg" alt="" />Turkish
+                          <img src="/img/page/language.svg" alt="" />{{
+                            $t("nav.turkish")
+                          }}
                         </li>
                       </ul>
                     </div>
@@ -230,10 +236,10 @@ const { locale, t, messages } = useI18n();
 const router = useRouter();
 
 const currentLanguageName = computed(() => {
-  if (locale.value === "en") return "English";
-  if (locale.value === "de") return "German";
-  if (locale.value === "tr") return "Turkish";
-  return "English"; 
+  if (locale.value === "en") return t("nav.english");
+  if (locale.value === "de") return t("nav.german");
+  if (locale.value === "tr") return t("nav.turkish");
+  return t("nav.english");
 });
 
 const handleScroll = () => {

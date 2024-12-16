@@ -100,10 +100,7 @@
       </div>
       <div class="row footer-bottom">
         <div class="col-md-6">
-          <p class="copy-right">
-            Copyright© 2024 All
-            Rights Reserved
-          </p>
+          <p class="copy-right">Copyright© 2024 All Rights Reserved</p>
         </div>
         <div class="col-md-6">
           <ul class="policy-tern flex-six">

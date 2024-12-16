@@ -49,8 +49,7 @@
               Lorem
               <span class="animationtext clip text-main font-yes text-main">
                 <span class="cd-words-wrapper">
-                  <span class="item-text is-visible">ipsum</span>
-                  <span class="item-text is-hidden">sit amet</span>
+                  <span class="item-text is-visible">{{ currentText }}</span>
                 </span>
               </span>
               & <br />
@@ -327,6 +326,13 @@ export default {
         smokingAllowed: false,
       },
       isFilterClicked: false,
+      items: ["ipsum", "sit amet"],
+      currentText: "",
+      currentIndex: 0,
+      charIndex: 0,
+      isDeleting: false,
+      typeDelay: 100,
+      wordPause: 2000,
     };
   },
   methods: {
@@ -345,6 +351,26 @@ export default {
       };
       console.log("Search Data:", searchData);
     },
+    startTypewriterEffect() {
+      const currentWord = this.items[this.currentIndex];
+
+      if (this.isDeleting) {
+        this.currentText = currentWord.substring(0, this.charIndex--);
+      } else {
+        this.currentText = currentWord.substring(0, this.charIndex++);
+      }
+      if (!this.isDeleting && this.charIndex === currentWord.length) {
+        setTimeout(() => (this.isDeleting = true), this.wordPause);
+      } else if (this.isDeleting && this.charIndex === 0) {
+        this.isDeleting = false;
+        this.currentIndex = (this.currentIndex + 1) % this.items.length;
+      }
+      const delay = this.isDeleting ? this.typeDelay / 2 : this.typeDelay;
+      setTimeout(this.startTypewriterEffect, delay);
+    },
+  },
+  mounted() {
+    this.startTypewriterEffect();
   },
 };
 </script>

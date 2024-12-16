@@ -7,8 +7,10 @@
     "contact": "İletişim",
     "login":"Oturum Açın",
     "signin":"Kaydolun",
-    "selectLanguage":"Select Language"
-
+    "selectLanguage":"Select Language",
+    "english":"İngilizce",
+    "german":"German",
+    "turkish":"Türkçe"
   },
   "banner": {
     "title": "UNUTULMAZI BULMAK İÇİN",

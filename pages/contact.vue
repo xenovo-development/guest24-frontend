@@ -1,15 +1,10 @@
 <template>
   <div>
     <BreadcrumbOne
-      activePageName="About"
-      title="About"
+      activePageName="Contact"
+      title="Contact"
       backgroundUrl="./img/slider.jpg"
     />
-    <AboutOne />
-    <WidgetServices />
-    <CtaOne />
-    <WidgetIgPost />
-    <HomeCta />
   </div>
 </template>
 

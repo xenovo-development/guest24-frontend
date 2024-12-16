@@ -1,14 +1,14 @@
 <template>
   <div>
-    <HomeSlider/>
-    <HomeBanner/>
-    <HomeAbout/>
-    <HomeActivities/>
-    <HomeFeature/>
-    <HomeDestination/>
-    <HomeTestimonial/>
-    <HomeBlog/>
-    <HomeCta/>
+    <HomeSlider />
+    <HomeBanner />
+    <HomeAbout />
+    <HomeActivities />
+    <HomeFeature />
+    <HomeDestination />
+    <HomeTestimonial />
+    <HomeBlog />
+    <HomeCta />
   </div>
 </template>
 

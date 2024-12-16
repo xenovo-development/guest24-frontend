@@ -31,7 +31,7 @@ export default defineNuxtConfig({
         { src: "/assets/js/shortcodes.js", defer: true },
         { src: "/assets/js/swiper-bundle.min.js", defer: true },
         { src: "/assets/js/swiper.js", defer: true },
-        { src: "/assets/js/textanimation.js", defer: true },
+        // { src: "/assets/js/textanimation.js", defer: true },
         { src: "/assets/js/wow.js", defer: true },
       ],
     },

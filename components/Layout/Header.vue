@@ -21,10 +21,6 @@
             </ul>
           </div>
           <div class="header-top-left flex-two">
-            <!-- <a href="contact-us.html" class="booking">
-              <i class="icon-19"></i>
-              <span>Booking Now</span>
-            </a> -->
             <div class="follow-social flex-two">
               <span>Follow Us :</span>
               <ul class="flex-two">
@@ -181,17 +177,6 @@
                       </ul>
                     </div>
                   </div>
-                  <!-- <div class="icon-bar-header">
-                    <a
-                      href="#"
-                      class="flex-three"
-                      data-bs-toggle="offcanvas"
-                      data-bs-target="#offcanvasRight"
-                      aria-controls="offcanvasRight"
-                    >
-                      <i class="icon-Vector3"></i>
-                    </a>
-                  </div> -->
                 </div>
                 <div class="mobile-nav-toggler mobile-button">
                   <i class="icon-bar"></i>
@@ -202,9 +187,7 @@
         </div>
       </div>
     </div>
-
     <!-- End Header Lower -->
-
     <!-- Mobile Menu  -->
     <div class="close-btn"><span class="icon flaticon-cancel-1"></span></div>
     <div class="mobile-menu">
@@ -222,83 +205,39 @@
   </header>
   <!-- End Main Header -->
 </template>
+
 <script setup>
-import { ref, onMounted, onUnmounted, watch } from "vue";
-import { useI18n } from "vue-i18n";
 import { useRouter } from "vue-router";
+import { useI18n } from "vue-i18n";
 
-const isFixed = ref(false);
-const isSmall = ref(false);
-const headerHeight = ref(0);
-const offsetTop = ref(0);
-
-const { locale, t, messages } = useI18n();
+const { locale, t, setLocale } = useI18n();
 const router = useRouter();
 
-const currentLanguageName = computed(() => {
-  if (locale.value === "en") return t("nav.english");
-  if (locale.value === "de") return t("nav.german");
-  if (locale.value === "tr") return t("nav.turkish");
-  return t("nav.english");
-});
-
-const handleScroll = () => {
-  const scrollTop = window.scrollY;
-  isFixed.value = scrollTop > offsetTop.value + headerHeight.value;
-  isSmall.value = scrollTop > 500;
-};
-
-const loadLocaleMessages = async (lang) => {
-  if (!messages.value[lang]) {
-    const localeMessages = await import(`@/locales/${lang}.json`);
-    messages.value[lang] = localeMessages.default;
-  }
-};
+const currentLanguageName = computed(() => t("nav.languageName"));
 
 const changeLanguage = async (lang) => {
   if (locale.value === lang) return;
 
-  await loadLocaleMessages(lang);
-  locale.value = lang;
+  await setLocale(lang);
   localStorage.setItem("selectedLanguage", lang);
 
   const currentRoute = router.currentRoute.value;
-  if (lang === "en") {
-    const newPath = currentRoute.fullPath.replace(/^\/[a-z]{2}/, "") || "/";
-    router.push(newPath).catch((err) => {
-      if (err.name !== "NavigationDuplicated") {
-        console.error(err);
-      }
-    });
-  } else {
-    const newPath = `/${lang}${currentRoute.fullPath.replace(
-      /^\/[a-z]{2}/,
-      ""
-    )}`;
-    router.push(newPath).catch((err) => {
-      if (err.name !== "NavigationDuplicated") {
-        console.error(err);
-      }
-    });
-  }
+  const newPath = router.resolve({
+    name: currentRoute.name,
+    params: { ...currentRoute.params, locale: lang },
+  }).fullPath;
+
+  router.push(newPath).catch((err) => {
+    if (err.name !== "NavigationDuplicated") {
+      console.error(err);
+    }
+  });
 };
 
 onMounted(() => {
-  const header = document.querySelector(".main-header");
-  if (header) {
-    offsetTop.value = header.offsetTop;
-    headerHeight.value = header.offsetHeight;
-  }
-
   const selectedLanguage = localStorage.getItem("selectedLanguage");
   if (selectedLanguage) {
     changeLanguage(selectedLanguage);
   }
-
-  window.addEventListener("scroll", handleScroll);
-});
-
-onUnmounted(() => {
-  window.removeEventListener("scroll", handleScroll);
 });
 </script>

@@ -9,8 +9,9 @@
     "signin":"Kaydolun",
     "selectLanguage":"Select Language",
     "english":"İngilizce",
-    "german":"German",
-    "turkish":"Türkçe"
+    "german":"Almanca",
+    "turkish":"Türkçe",
+    "languageName": "Türkçe"
   },
   "banner": {
     "title": "UNUTULMAZI BULMAK İÇİN",

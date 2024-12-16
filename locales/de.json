@@ -11,7 +11,8 @@
     "selectLanguage":"Select Language",
     "english":"Englisch",
     "german":"Deutsch",
-    "turkish":"Türkisch"
+    "turkish":"Türkisch",
+    "languageName": "Deutsch"
   },
   "banner": {
     "title": "DAS UNVERGESSLICHE FINDEN",

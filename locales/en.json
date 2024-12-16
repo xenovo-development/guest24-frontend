@@ -11,7 +11,8 @@
     "selectLanguage":"Select Language",
     "english":"English",
     "german":"German",
-    "turkish":"Turkish"
+    "turkish":"Turkish",
+    "languageName": "English"
 
   },
   "banner": {

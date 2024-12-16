@@ -1,33 +1,16 @@
 <template>
-  <!-- Widget Slider -->
   <section class="relative overflow-hidden">
     <div class="slider-home2-image">
       <div class="row">
         <div class="col-lg-12">
           <div class="slider-home2">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img
-                    src="/img/slide/slider.jpg"
-                    class="image-slider-home2 relative"
-                    alt="Image slider"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="/img/slide/slider.jpg"
-                    class="image-slider-home2 relative"
-                    alt="Image slider"
-                  />
-                </div>
-              </div>
-              <div class="swiper-button-next next-slider2"></div>
-              <div class="swiper-button-prev prev-slider2"></div>
-            </div>
+            <img
+              src="/img/slide/slider.jpg"
+              class="image-slider-home2 relative"
+              alt="Image slider"
+            />
           </div>
         </div>
-        <!-- /.main-banner-wrapper -->
       </div>
     </div>
     <div class="slider-home2-content">
@@ -167,7 +150,6 @@
                           </div>
                         </div>
                       </div>
-                      <!-- /.widget_price -->
                     </fieldset>
                     <fieldset class="group-select relative input-npd">
                       <div class="search-bar-group relative">
@@ -302,75 +284,72 @@
       </div>
     </div>
   </section>
-  <!-- Widget Slider -->
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      destination: "",
-      checkIn: "",
-      checkOut: "",
-      guests: "",
-      lorem: "",
-      priceRange: { min: "", max: "" },
-      additionalFilters: {
-        acceptsCreditCards: false,
-        carParking: false,
-        freeCoupons: false,
-        laundryService: false,
-        outdoorSeating: false,
-        reservations: false,
-        restaurant: false,
-        smokingAllowed: false,
-      },
-      isFilterClicked: false,
-      items: ["ipsum", "sit amet"],
-      currentText: "",
-      currentIndex: 0,
-      charIndex: 0,
-      isDeleting: false,
-      typeDelay: 100,
-      wordPause: 2000,
-    };
-  },
-  methods: {
-    toggleFilter() {
-      this.isFilterClicked = !this.isFilterClicked;
-    },
-    handleSearch() {
-      const searchData = {
-        destination: this.destination,
-        checkIn: this.checkIn,
-        checkOut: this.checkOut,
-        guests: this.guests,
-        priceRange: JSON.parse(JSON.stringify(this.priceRange)),
-        lorem: this.lorem,
-        filters: JSON.parse(JSON.stringify(this.additionalFilters)),
-      };
-      console.log("Search Data:", searchData);
-    },
-    startTypewriterEffect() {
-      const currentWord = this.items[this.currentIndex];
+<script setup>
+import { ref, reactive, onMounted } from 'vue';
 
-      if (this.isDeleting) {
-        this.currentText = currentWord.substring(0, this.charIndex--);
-      } else {
-        this.currentText = currentWord.substring(0, this.charIndex++);
-      }
-      if (!this.isDeleting && this.charIndex === currentWord.length) {
-        setTimeout(() => (this.isDeleting = true), this.wordPause);
-      } else if (this.isDeleting && this.charIndex === 0) {
-        this.isDeleting = false;
-        this.currentIndex = (this.currentIndex + 1) % this.items.length;
-      }
-      const delay = this.isDeleting ? this.typeDelay / 2 : this.typeDelay;
-      setTimeout(this.startTypewriterEffect, delay);
-    },
-  },
-  mounted() {
-    this.startTypewriterEffect();
-  },
+const destination = ref("");
+const checkIn = ref("");
+const checkOut = ref("");
+const guests = ref("");
+const lorem = ref("");
+const priceRange = reactive({ min: "", max: "" });
+const additionalFilters = reactive({
+  acceptsCreditCards: false,
+  carParking: false,
+  freeCoupons: false,
+  laundryService: false,
+  outdoorSeating: false,
+  reservations: false,
+  restaurant: false,
+  smokingAllowed: false,
+});
+const isFilterClicked = ref(false);
+const items = ["ipsum", "sit amet"];
+const currentText = ref("");
+let currentIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+const typeDelay = 100;
+const wordPause = 2000;
+
+const toggleFilter = () => {
+  isFilterClicked.value = !isFilterClicked.value;
 };
+
+const handleSearch = () => {
+  const searchData = {
+    destination: destination.value,
+    checkIn: checkIn.value,
+    checkOut: checkOut.value,
+    guests: guests.value,
+    priceRange: { ...priceRange },
+    lorem: lorem.value,
+    filters: { ...additionalFilters },
+  };
+  console.log("Search Data:", searchData);
+};
+
+const startTypewriterEffect = () => {
+  const currentWord = items[currentIndex];
+
+  if (isDeleting) {
+    currentText.value = currentWord.substring(0, charIndex--);
+  } else {
+    currentText.value = currentWord.substring(0, charIndex++);
+  }
+  if (!isDeleting && charIndex === currentWord.length) {
+    setTimeout(() => (isDeleting = true), wordPause);
+  } else if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    currentIndex = (currentIndex + 1) % items.length;
+  }
+  const delay = isDeleting ? typeDelay / 2 : typeDelay;
+  setTimeout(startTypewriterEffect, delay);
+};
+
+onMounted(() => {
+  startTypewriterEffect();
+});
 </script>

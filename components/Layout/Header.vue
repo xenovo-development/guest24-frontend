@@ -207,6 +207,7 @@
 </template>
 
 <script setup>
+import { ref, computed, onMounted, onUnmounted } from "vue";
 import { useRouter } from "vue-router";
 import { useI18n } from "vue-i18n";
 
@@ -234,10 +235,25 @@ const changeLanguage = async (lang) => {
   });
 };
 
+const isFixed = ref(false);
+const isSmall = ref(false);
+
+const handleScroll = () => {
+  const scrollPosition = window.scrollY;
+  isFixed.value = scrollPosition > 100;
+  isSmall.value = scrollPosition > 200;
+};
+
 onMounted(() => {
   const selectedLanguage = localStorage.getItem("selectedLanguage");
   if (selectedLanguage) {
     changeLanguage(selectedLanguage);
   }
+
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
 });
 </script>

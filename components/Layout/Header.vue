@@ -21,6 +21,9 @@
             </ul>
           </div>
           <div class="header-top-left flex-two">
+            <nuxt-link :to="localePath('/login')" class="booking">
+              <span>Login / Signup</span>
+            </nuxt-link>
             <div class="follow-social flex-two">
               <span>Follow Us :</span>
               <ul class="flex-two">

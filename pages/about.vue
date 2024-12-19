@@ -3,7 +3,7 @@
     <BreadcrumbOne
       activePageName="About"
       title="About"
-      backgroundUrl="./img/slider.jpg"
+      backgroundUrl="/img/slider.jpg"
     />
     <AboutOne />
     <WidgetServices />

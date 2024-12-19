@@ -3,7 +3,7 @@
     <BreadcrumbOne
       activePageName="Contact"
       title="Contact"
-      backgroundUrl="./img/slider.jpg"
+      backgroundUrl="/img/slider.jpg"
     />
   </div>
 </template>

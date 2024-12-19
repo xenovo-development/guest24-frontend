@@ -38,14 +38,14 @@ export default defineNuxtConfig({
     locales: [
       { code: "en", iso: "en-US", name: "English", file: "en.json" },
       { code: "de", iso: "de-DE", name: "German", file: "de.json" },
-      { code: "tr", iso: "tr-TR", name: "Turkish", file: "tr.json" },
+      { code: "tr", iso: "tr-TR", name: "Turkish", file: "tr.json" }
     ],
     defaultLocale: "en",
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",
-      redirectOn: "root",
-    },
+      redirectOn: "root"
+    }
   },
   devtools: { enabled: true },
 });

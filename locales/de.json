@@ -8,6 +8,7 @@
     "contact": "Kontakt",
     "login":"Anmelden",
     "signin":"Einsingen",
+    "followus":"Folgen Sie uns",
     "selectLanguage":"Select Language",
     "english":"Englisch",
     "german":"Deutsch",
@@ -29,13 +30,5 @@
     "adults": "Erwachs",
     "children": "Kinder",
     "button": "Suche"
-  },
-  "about": {
-    "text1": "Guest24 ist eine digitale Unterkunftsplattform, die eine breite Palette exklusiver Apartments mit ihren geschätzten Gästen zusammenbringt und ihnen die Möglichkeit bietet, von besonderen Vorteilen und Rabatten zu profitieren. Hier vereinen wir die Möglichkeiten der Gastfreundschaftsbranche, die Kontinente und Städte umspannen, mit einem besonderen Privileg für Sie.",
-    "text2": "Wir finden das perfekte Angebot sowohl für die Gastgeber als auch für unsere geschätzten Gäste und definieren die Grenzen der Unterkunftsbranche in Bezug auf Eleganz und Exklusivität neu.",
-    "text3": "Denn Guest24 ist dafür da, das Unvergessliche zu finden...",
-    "text4": "Dank unseres Portfolios, das Dutzende von Apartments in Istanbul, Wien, Leipzig, Hadersdorf am Kamp und Nordzypern abdeckt, bieten wir Apartments mit allem Notwendigen für ein unvergessliches Unterkunftserlebnis mit ihrer Lage, Ausstattung und Lebensstandard, mit Ihnen, unseren geschätzten Gästen, die wir wissen, dass sie nicht mit weniger als Perfektem zufrieden sind.",
-    "text5": "Denn Guest24 existiert, um Sie über das Gewöhnliche hinaus zu bringen...",
-    "text6": "Guest24 wählt private Häuser von privaten Gastgebern aus und bietet sie den Mitgliedern seiner exklusiven Gästegemeinschaft mit speziellen Angeboten und Rabatten an. Somit haben Sie Anspruch auf eine Vielzahl von Vorteilen und Rabatten, die Ihren Aufenthalt in neue Luxushöhen bringen, während Sie exklusiven Zugang zu verborgenen Perlen der Unterkunft genießen, die für den Gelegenheitsreisenden verborgen bleiben. Unser Glaube an die Bedeutung der Belohnung für Sie, unsere geschätzten Gäste, macht sowohl Guest24 als auch Ihr Unterkunftserlebnis einzigartig."
   }
 }

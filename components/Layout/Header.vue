@@ -22,10 +22,10 @@
           </div>
           <div class="header-top-left flex-two">
             <nuxt-link :to="localePath('/login')" class="booking">
-              <span>Login / Signup</span>
+              <span>{{ $t("nav.login") }} / {{ $t("nav.signin") }}</span>
             </nuxt-link>
             <div class="follow-social flex-two">
-              <span>Follow Us :</span>
+              <span>{{ $t("nav.followus") }} :</span>
               <ul class="flex-two">
                 <li>
                   <a href="#"><i class="icon-icon-2"></i></a>

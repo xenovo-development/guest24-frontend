@@ -79,7 +79,9 @@
                   <div class="col-md-12">
                     <div class="flex-three">
                       <span class="account">Don,t you have an account?</span>
-                      <a href="login.html" class="link-login">Login</a>
+                      <nuxt-link :to="localePath('/login')" class="link-login"
+                        >Login</nuxt-link
+                      >
                     </div>
                   </div>
                 </div>
@@ -91,3 +93,12 @@
     </div>
   </section>
 </template>
+<script setup>
+const { setLocale, locale } = useI18n();
+
+function setLanguage(language) {
+  setLocale(language);
+  locale.value = language;
+  localStorage.setItem("language", language);
+}
+</script>

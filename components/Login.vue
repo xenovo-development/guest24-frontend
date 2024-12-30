@@ -15,18 +15,28 @@
                   <p>get 20% off for web signup</p>
                 </div>
               </div>
-              <form action="/" id="login" class="login-user">
+              <form @submit.prevent="handleLogin" id="login" class="login-user">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="input-wrap">
                       <label>Name</label>
-                      <input type="text" placeholder="Enter your name*" />
+                      <input
+                        type="text"
+                        v-model="formData.name"
+                        placeholder="Enter your name*"
+                        required
+                      />
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="input-wrap">
                       <label>Email</label>
-                      <input type="email" placeholder="Enter your name*" />
+                      <input
+                        type="email"
+                        v-model="formData.email"
+                        placeholder="Enter your email*"
+                        required
+                      />
                     </div>
                   </div>
                   <div class="col-lg-12">
@@ -37,23 +47,10 @@
                       </div>
                       <input
                         type="password"
+                        v-model="formData.password"
                         placeholder="Enter your password*"
+                        required
                       />
-                    </div>
-                  </div>
-                  <div class="col-lg-12 mb-40">
-                    <div class="input-wrap-social">
-                      <span class="or">or</span>
-                      <div class="flex-three">
-                        <a href="#" class="login-social flex-three">
-                          <img src="/img/page/gg.png" alt="image" />
-                          <span>Sign in with Google</span>
-                        </a>
-                        <a href="#" class="login-social flex-three">
-                          <img src="/img/page/fb.png" alt="image" />
-                          <span>Sign in with facebook</span>
-                        </a>
-                      </div>
                     </div>
                   </div>
                   <div class="col-lg-12 mb-30">
@@ -64,13 +61,13 @@
                       <input
                         id="check-policy"
                         type="checkbox"
-                        name="check"
-                        value="check"
+                        v-model="formData.agree"
+                        required
                       />
-                      <label for="check-policy"
-                        >By signing up, you agree to Customers.ai’s Terms Of
-                        Service and Privacy Policy</label
-                      >
+                      <label for="check-policy">
+                        By signing up, you agree to Customers.ai’s Terms Of
+                        Service and Privacy Policy
+                      </label>
                     </div>
                   </div>
                   <div class="col-md-12">
@@ -83,6 +80,8 @@
                   </div>
                 </div>
               </form>
+              <p v-if="errorMessage" class="error">{{ errorMessage }}</p>
+              <p v-if="successMessage" class="success">{{ successMessage }}</p>
             </div>
           </div>
         </div>
@@ -90,12 +89,55 @@
     </div>
   </section>
 </template>
-<script setup>
-const { setLocale, locale } = useI18n();
 
-function setLanguage(language) {
-  setLocale(language);
-  locale.value = language;
-  localStorage.setItem("language", language);
+<script setup>
+import { ref } from "vue";
+import axios from "axios";
+
+const formData = ref({
+  name: "",
+  email: "",
+  password: "",
+  agree: false,
+});
+
+const errorMessage = ref("");
+const successMessage = ref("");
+
+async function handleLogin() {
+  errorMessage.value = "";
+  successMessage.value = "";
+
+  try {
+    const response = await axios.post("https://api", {
+      name: formData.value.name,
+      email: formData.value.email,
+      password: formData.value.password,
+    });
+
+    if (response.data.success) {
+      successMessage.value = "Login successful! Redirecting...";
+      setTimeout(() => {
+        window.location.href = "/";
+      }, 2000);
+    } else {
+      errorMessage.value =
+        response.data.message || "Login failed. Please try again.";
+    }
+  } catch (error) {
+    errorMessage.value =
+      error.response?.data?.message || "An error occurred during login.";
+  }
 }
 </script>
+
+<style scoped>
+.error {
+  color: red;
+  margin-top: 10px;
+}
+.success {
+  color: green;
+  margin-top: 10px;
+}
+</style>

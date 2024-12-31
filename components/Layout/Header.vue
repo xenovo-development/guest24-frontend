@@ -107,8 +107,8 @@
                           >
                         </li>
                         <li>
-                          <nuxt-link :to="localePath('/')">{{
-                            $t("nav.destinations")
+                          <nuxt-link :to="localePath('/listings')">{{
+                            $t("nav.listings")
                           }}</nuxt-link>
                         </li>
                         <li>

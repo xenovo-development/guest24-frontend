@@ -5,6 +5,7 @@
       title="Contact"
       backgroundUrl="/img/slider.jpg"
     />
+    <Contact />
   </div>
 </template>
 

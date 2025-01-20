@@ -7,10 +7,10 @@
           <div class="center mb-40">
             <span
               class="sub-title-heading text-main fs-28-46 font-yes wow fadeInUp animated"
-              >Explore the world</span
+              >{{ $t("blog.blog") }}</span
             >
             <h2 class="title-heading wow fadeInUp animated">
-              Updated News & Blogs
+              {{ $t("blog.title") }}
             </h2>
           </div>
         </div>

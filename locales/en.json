@@ -2,23 +2,24 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "flat":"Flats",
-    "news":"Blog",
-    "listings":"Listings",
+    "flat": "Flats",
+    "news": "Blog",
+    "listings": "Listings",
     "contact": "Contact",
-    "login":"Log In",
-    "signin":"Sign Up",
-    "followus":"Follow Us",
-    "selectLanguage":"Select Language",
-    "english":"English",
-    "german":"German",
-    "turkish":"Turkish",
+    "login": "Log In",
+    "signin": "Sign Up",
+    "followus": "Follow Us",
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "german": "German",
+    "turkish": "Turkish",
     "languageName": "English"
-
   },
-  "banner": {
-    "title": "TO FIND THE UNFORGETTABLE",
-    "text": "With its world-class amenities and location, Guest24 offers a unique living experience with fully equipped apartments for those seeking an exclusive lifestyle in Istanbul, Vienna, Leipzig, Hadersdorf am Kamp and Northern Cyprus.",
+  "slider": {
+    "title": "To find the unforgettable",
+    "subtext1": "Best apartments",
+    "subtext2": "Exclusive discounts",
+    "subtext3": "Exclusive accommodation",
     "location": "Location",
     "locationPlaceholder": "Select Location",
     "checkin": "Check-in",
@@ -31,5 +32,72 @@
     "adults": "Adults",
     "children": "Children",
     "button": "Search"
-  }
+  },
+  "explore": {
+    "title": "Explore Your Own Way",
+    "category1": "City & Culture",
+    "category2": "Coastal & Nature Retreats",
+    "category3": "Historic Landmarks",
+    "category4": "Beachfront Bliss",
+    "category5": "Mountain and Vineyard Routes",
+    "subtitle1": "Explore, Live, Rest",
+    "subtitle2": "Different Worlds, One Vacation",
+    "subtext1": "Journey to cities, beaches and mountains, with destinations offering vacation experiences in every style.",
+    "subtext2": "From the depths of history to the tranquility of nature, a new discovery awaits you at every step.",
+    "moreplace": "More Place"
+  },
+  "experiences": {
+    "title": "Unforgettable Locations",
+    "title2": "Unique Experiences",
+    "viewall": "View All"
+  },
+  "destinations": {
+    "destinations": "Destinations",
+    "title1": "Connecting",
+    "title2": "You to ",
+    "title3": "Top Destinations",
+    "viewall": "View All"
+  },
+  "testimonial": {
+    "testimonial": "Testimonial",
+    "title": "Finders of the Unforgettable"
+  },
+  "blog": {
+    "blog": "Blog",
+    "title": "Latest news & blogs"
+  },
+  "footer": {
+    "text": "Guest24 offers a unique living experience with fully equipped apartments with world-class amenities in Istanbul, Vienna, Florida, Northern Cyprus and Hadersdorf am Kamp."
+  },
+  "aboutus": {
+    "aboutus": "About us",
+    "text1": "Guest24 is a digital accommodation platform that brings together a large portfolio of exclusive apartments with distinguished guests and offers them the opportunity to benefit from special advantages and discounts. Here, we bring together the opportunities of the accommodation industry that span continents and cities with a special privilege for you.",
+    "text2": "We find the most perfect for both hosts and our valued guests, redefining the boundaries of the accommodation industry in terms of elegance and privilege.",
+    "text3": "Because Guest24 exists for you to find the unforgettable...",
+    "text4": "Thanks to our portfolio of dozens of apartments in Istanbul, Vienna, Florida, Northern Cyprus and Hadersdorf am Kamp, we bring together apartments that have everything necessary for an unforgettable accommodation experience with their location, features and living standards with our valued guests who we know will not settle for anything less than perfect.",
+    "text5": "Because Guest24 exists to take you beyond the ordinary...",
+    "text6": "Guest24 selects private homes from private hosts and offers them to members of the elite guest community with special offers and discounts. Thus, you are entitled to a range of benefits and discounts that take your stay to new heights of luxury, while enjoying exclusive access to hospitality gems hidden away for the ordinary traveler. Our belief in the importance of rewarding our valued guests makes both Guest24 and your accommodation experience unique."
+  },
+  "faq": [
+    {
+      "question": "How can I make a reservation with Guest24?",
+      "answer": "You can make a reservation with simple steps by selecting the desired location and date on our website. A confirmation email will be sent to you after booking."
+    },
+    {
+      "question": "What are the benefits for guests?",
+      "answer": "Our guests enjoy privileges such as special discounts, early check-in/check-out and access to premium services."
+    },
+    {
+      "question": "In which locations are the apartments at Guest24 located?",
+      "answer": "Guest24 offers apartments in popular destinations such as Istanbul, Vienna, Florida, Northern Cyprus and Hadersdorf am Kamp."
+    },
+    {
+      "question": "Can I pay with 3D Secure System?",
+      "answer": "Yes. With the 3D Secure System, you can make your payment safely and easily."
+    },
+    {
+      "question": "How can I benefit from special discounts?",
+      "answer": "In order to benefit from special discounts only for Guest24 guests, you need to make a reservation through the site."
+    }
+  ]
 }

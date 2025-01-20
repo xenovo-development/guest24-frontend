@@ -76,7 +76,7 @@
                             $t("nav.about")
                           }}</nuxt-link>
                         </li>
-                        <li class="dropdown2">
+                        <!-- <li class="dropdown2">
                           <a href="#">Lorem ipsum</a>
                           <ul>
                             <li>
@@ -100,12 +100,12 @@
                               >
                             </li>
                           </ul>
-                        </li>
+                        </li> -->
                         <li>
                           <nuxt-link :to="localePath('/')"
                             >Lorem ipsum</nuxt-link
                           >
-                        </li>
+                        </li> 
                         <li>
                           <nuxt-link :to="localePath('/listings')">{{
                             $t("nav.listings")

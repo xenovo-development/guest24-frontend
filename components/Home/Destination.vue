@@ -8,10 +8,13 @@
           <div class="">
             <span
               class="sub-title-heading text-main fs-28-46 font-yes wow fadeInUp animated"
-              >Explore the world</span
+              >{{ $t("destinations.destinations") }}</span
             >
             <h2 class="title-heading wow fadeInUp animated">
-              We Provide Top <span class="text-gray font-yes">Destination</span>
+              {{ $t("destinations.title1") }} {{ $t("destinations.title2") }}
+              <span class="text-gray font-yes">{{
+                $t("destinations.title3")
+              }}</span>
             </h2>
           </div>
         </div>
@@ -19,7 +22,7 @@
           <a
             href="tour-destination-v1.html"
             class="view-all wow fadeInUp animated"
-            >View all destination <i class="icon-Group-13"></i
+            >{{ $t("destinations.viewall") }} <i class="icon-Group-13"></i
           ></a>
         </div>
       </div>
@@ -193,14 +196,14 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-12">
           <p class="center destination-explore wow fadeInUp animated">
             Explore our top destinations voted by more than
             <span class="text-main">100,000+</span> customers around the world.
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
   <!-- Widget destination -->

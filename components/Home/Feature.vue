@@ -13,8 +13,9 @@
               >Explore the world</span
             >
             <h2 class="title-heading wow fadeInUp animated">
-              Amazing Featured Tour
-              <span class="text-gray font-yes">Package</span> the world
+              {{ $t("experiences.title") }}
+              <span class="text-gray font-yes"> & </span
+              >{{ $t("experiences.title2") }}
             </h2>
           </div>
         </div>
@@ -2098,7 +2099,7 @@
               <div class="row">
                 <div class="col-lg-12 center mt-44">
                   <a href="archieve-tour.html" class="btn-main">
-                    <p class="btn-main-text">View all tour</p>
+                    <p class="btn-main-text">{{ $t("experiences.viewall") }}</p>
                     <p class="iconer">
                       <i class="icon-13"></i>
                     </p>

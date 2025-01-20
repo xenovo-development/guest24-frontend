@@ -5,11 +5,10 @@
         <div class="col-lg-12">
           <div class="center m0-auto w-text-heading mb-40">
             <span class="sub-title-heading text-main fs-28-46 font-yes">
-              Explore the world
+              {{ $t("testimonial.testimonial") }}
             </span>
             <h2 class="title-heading">
-              Amazing Featured Tour
-              <span class="text-gray font-yes">Package</span> the world
+              {{ $t("testimonial.title") }}
             </h2>
           </div>
         </div>

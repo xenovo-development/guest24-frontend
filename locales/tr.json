@@ -2,21 +2,23 @@
   "nav": {
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
-    "news":"Blog",
-    "listings":"Evler",
+    "news": "Blog",
+    "listings": "Evler",
     "contact": "İletişim",
-    "login":"Oturum Açın",
-    "signin":"Kaydolun",
-    "followus":"Bizi Takip Edin",
-    "selectLanguage":"Select Language",
-    "english":"İngilizce",
-    "german":"Almanca",
-    "turkish":"Türkçe",
+    "login": "Oturum Açın",
+    "signin": "Kaydolun",
+    "followus": "Bizi Takip Edin",
+    "selectLanguage": "Select Language",
+    "english": "İngilizce",
+    "german": "Almanca",
+    "turkish": "Türkçe",
     "languageName": "Türkçe"
   },
-  "banner": {
-    "title": "UNUTULMAZI BULMAK İÇİN",
-    "text": "Guest24, dünya standartlarındaki olanakları ve konumuyla İstanbul, Viyana, Leipzig, Hadersdorf am Kamp ve Kuzey Kıbrıs'ta seçkin bir yaşam tarzı arayanlar için tam donanımlı daireleriyle benzersiz bir yaşam deneyimi sunuyor.",
+  "slider": {
+    "title": "Unutulmazı bulmak için",
+    "subtext1": "En iyi apartmanlar",
+    "subtext2": "Size özel indirimler",
+    "subtext3": "Ayrıcalıklı bir konaklama",
     "location": "Konum",
     "locationPlaceholder": "Konum Seçin",
     "checkin": "Giriş",
@@ -29,5 +31,72 @@
     "adults": "Yetişkinler",
     "children": "Çocuklar",
     "button": "Ara"
-  }
+  },
+  "explore": {
+    "title": "Kendi Yolunla Keşfet",
+    "category1": "Şehir ve Kültür",
+    "category2": "Kıyı ve Doğa İnzivaları",
+    "category3": "Tarihi Simgesel Yapılar",
+    "category4": "Sahil Mutluluğu",
+    "category5": "Dağ ve Üzüm Bağı Rotaları",
+    "subtitle1": "Keşfet, Yaşa, Dinlen",
+    "subtitle2": "Farklı Dünyalar, Tek Bir Tatil",
+    "subtext1": "Her tarzda tatil deneyimi sunan mekanlarla, şehirlere, sahillere ve dağlara yolculuğa çıkın.",
+    "subtext2": "Tarihin derinliklerinden doğanın huzuruna, her adımda yeni bir keşif sizi bekliyor.",
+    "moreplace": "Daha Fazla Yer"
+  },
+  "experiences": {
+    "title": "Unutulmaz Yerler",
+    "title2": "Eşsiz Deneyimler",
+    "viewall": "Hepsini Görüntüle"
+  },
+  "destinations": {
+    "destinations": "Destinasyonlar",
+    "title1": "Sizi En İyi",
+    "title2": "Seyahat Noktalarıyla",
+    "title3": "Buluşturuyoruz",
+    "viewall": "Hepsini Görüntüle"
+  },
+  "testimonial": {
+    "testimonial": "Değerlendirmeler",
+    "title": "Unutulmazı Bulanlar"
+  },
+  "blog": {
+    "blog": "Blog",
+    "title": "Son haberler &  bloglar"
+  },
+  "footer": {
+    "text": "Guest24, İstanbul, Viyana, Florida, Kuzey Kıbrıs ve Hadersdorf am Kamp’ta, dünya standartlarında olanaklarla, tam donanımlı dairelerle eşsiz bir yaşam deneyimi sunuyor."
+  },
+  "aboutus": {
+    "aboutus": "Hakkımızda",
+    "text1": "Guest24, seçkin dairelerden oluşan geniş bir portföyü seçkin misafirlerle buluşturan, onlara özel avantaj ve indirimlerden yararlanma fırsatı sunan dijital bir konaklama platformudur. Burada konaklama sektörünün kıtalara ve şehirlere yayılan fırsatlarını size özel bir ayrıcalıkla bir araya getiriyoruz.",
+    "text2": "Hem ev sahipleri hem de siz değerli misafirlerimiz için en mükemmelini buluyor, konaklama sektörünün sınırlarını şıklık ve ayrıcalık açısından yeniden tanımlıyoruz.",
+    "text3": "Çünkü Guest24 unutulmaz olanı bulmanız için var...",
+    "text4": "İstanbul, Viyana, Florida, Kuzey Kıbrıs ve Hadersdorf am Kamp'ta onlarca daireden oluşan portföyümüz sayesinde konumu, özellikleri ve yaşam standartlarıyla unutulmaz bir konaklama deneyimi için gerekli her şeye sahip daireleri, mükemmelden daha azına razı olmayacağını bildiğimiz siz değerli misafirlerimizle buluşturuyoruz.",
+    "text5": "Çünkü Guest24 sizi sıradanlığın ötesine taşımak için var...",
+    "text6": "Guest24, özel ev sahiplerinden özel evler seçer ve bunları özel teklifler ve indirimlerle elit misafir topluluğunun üyelerine sunar. Böylece, konaklamanızı lüksün yeni zirvelerine taşıyan bir dizi avantaj ve indirim hakkına sahip olurken, sıradan gezginler için gizli kalmış konukseverlik mücevherlerine özel erişimin tadını çıkarırsınız. Değerli misafirlerimizi ödüllendirmenin önemine olan inancımız, hem Guest24'ü hem de konaklama deneyiminizi benzersiz kılmaktadır."
+  },
+  "faq": [
+    {
+      "question": "Guest24 ile nasıl rezervasyon yapabilirim?",
+      "answer": "Web sitemiz üzerinden istediğiniz lokasyonu ve tarihi seçerek, basit adımlarla rezervasyon yapabilirsiniz. Rezervasyon sonrası size bir onay e-postası gönderilecektir."
+    },
+    {
+      "question": "Misafirler için sağlanan avantajlar nelerdir?",
+      "answer": "Misafirlerimiz, özel indirimler, erken giriş/çıkış imkanları ve premium hizmetlere erişim gibi ayrıcalıklara sahiptir."
+    },
+    {
+      "question": "Guest24’teki apartmanlar hangi lokasyonlarda bulunmaktadır?",
+      "answer": "Guest24, İstanbul, Viyana, Florida, Kuzey Kıbrıs ve Hadersdorf am Kamp gibi popüler destinasyonlarda daireler sunmaktadır."
+    },
+    {
+      "question": "3D secure sistemi ile ödeme yapabilir miyim?",
+      "answer": "Evet. 3D Secure Sistemi ile ödemenizi güvenli ve kolay bir şekilde yapabilirsiniz."
+    },
+    {
+      "question": "Özel indirimlerden nasıl faydalanabilirim?",
+      "answer": "Sadece Guest24 misafirlerine özel indirimlerden faydalanabilmek için site üzerinden rezervasyon yapmanız gerekmektedir."
+    }
+  ]
 }

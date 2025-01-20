@@ -22,10 +22,12 @@
               alt="Image"
               class="mask-slide2-flan"
             />
-            <span
+            <!-- <span
               class="sub-title text-main font-yes fs-28-46 wow fadeInUp animated"
-              >Lorem ipsum</span
-            >
+              >{{
+                $t("slider.title")
+              }}</span
+            > -->
             <h1
               class="banner-text title-slide text-white mb-45 wow fadeInUp animated"
             >
@@ -267,16 +269,20 @@
               <ul class="flex-five">
                 <li>
                   <i class="icon-Vector-5"></i>
-                  <span>Lorem ipsum dolor sit amet.</span>
+                  <span>{{
+                    $t("slider.subtext1")
+                  }}</span>
                 </li>
                 <li>
                   <i class="icon-Vector-5"></i>
-                  <span>Lorem ipsum dolor sit amet.</span>
-                </li>
+                  <span>{{
+                    $t("slider.subtext2")
+                  }}</span>                </li>
                 <li>
                   <i class="icon-Vector-5"></i>
-                  <span>Lorem ipsum dolor sit amet.</span>
-                </li>
+                  <span>{{
+                    $t("slider.subtext3")
+                  }}</span>                </li>
               </ul>
             </div>
           </div>

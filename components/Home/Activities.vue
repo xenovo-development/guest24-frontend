@@ -10,7 +10,7 @@
               >Explore the world</span
             >
             <h2 class="title-heading text-white wow fadeInUp animated">
-              Offer package for you
+              {{ $t("explore.title") }}
             </h2>
           </div>
         </div>
@@ -24,7 +24,9 @@
                   <div class="icon">
                     <i class="icon-river-1"></i>
                   </div>
-                  <span class="activities-text">Music & Relaxings</span>
+                  <span class="activities-text">{{
+                    $t("explore.category1")
+                  }}</span>
                 </a>
               </li>
               <li>
@@ -32,7 +34,9 @@
                   <div class="icon">
                     <i class="icon-tent-1"></i>
                   </div>
-                  <span class="activities-text">Couple camping</span>
+                  <span class="activities-text">{{
+                    $t("explore.category2")
+                  }}</span>
                 </a>
               </li>
               <li>
@@ -40,7 +44,9 @@
                   <div class="icon">
                     <i class="icon-fishing-1-1"></i>
                   </div>
-                  <span class="activities-text">Fishing & Swimming</span>
+                  <span class="activities-text">{{
+                    $t("explore.category3")
+                  }}</span>
                 </a>
               </li>
               <li>
@@ -48,33 +54,25 @@
                   <div class="icon">
                     <i class="icon-hiking-1-1"></i>
                   </div>
-                  <span class="activities-text">Mountain & Hill Hiking</span>
+                  <span class="activities-text">{{
+                    $t("explore.category4")
+                  }}</span>
                 </a>
               </li>
               <li>
                 <a href="#" class="flex-three wow fadeInUp animated">
                   <div class="icon">
-                    <svg
-                      width="47"
-                      height="47"
-                      viewBox="0 0 47 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M34.1875 24.8125H29.4375M34.1875 24.8125C34.1875 26.779 35.7835 28.375 37.75 28.375C39.7165 28.375 41.3125 26.779 41.3125 24.8125M34.1875 24.8125C34.1875 22.846 35.7835 21.25 37.75 21.25C39.7165 21.25 41.3125 22.846 41.3125 24.8125M29.4375 24.8125H12.8125M29.4375 24.8125V8.1875M29.4375 24.8125H22.3125V8.1875H29.4375M29.4375 8.1875H36.5625L40.125 15.3125M29.4375 8.1875H38.016C39.6381 8.1875 40.7829 6.59862 40.2723 5.062L39.479 2.687C39.156 1.71562 38.2488 1.0625 37.2251 1.0625H0.9375V24.8125H5.6875M40.125 15.3125L44.5686 17.0914C45.4711 17.45 46.0625 18.3264 46.0625 19.2954V22.4375C46.0625 23.7509 45.0009 24.8125 43.6875 24.8125H41.3125M40.125 15.3125H29.4375H22.3125M12.8125 24.8125C12.8125 26.779 11.2165 28.375 9.25 28.375C7.2835 28.375 5.6875 26.779 5.6875 24.8125M12.8125 24.8125C12.8125 22.846 11.2165 21.25 9.25 21.25C7.2835 21.25 5.6875 22.846 5.6875 24.8125M5.6875 15.3125H17.5625V8.1875H5.6875V15.3125Z"
-                        stroke="currentColor"
-                        stroke-width="1.8"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
+                    <i class="icon-hiking-1-1"></i>
                   </div>
-                  <span class="activities-text">Trailers & RV Sports</span>
+                  <span class="activities-text">{{
+                    $t("explore.category5")
+                  }}</span>
                 </a>
               </li>
             </ul>
-            <a href="#" class="more-place center">More Place </a>
+            <a href="#" class="more-place center">{{
+              $t("explore.moreplace")
+            }}</a>
           </div>
         </div>
         <div class="col-md-7">
@@ -157,10 +155,10 @@
                         </g>
                       </svg>
                     </div>
-                    <span class="text">Real adventure Feel</span>
+                    <span class="text">{{ $t("explore.subtitle1") }}</span>
                   </div>
                   <p class="des wow fadeInUp animated">
-                    Welcome to our Print 128 wesit! company that offers a wide r
+                    {{ $t("explore.subtext1") }}
                   </p>
                 </div>
               </div>
@@ -238,10 +236,10 @@
                         </g>
                       </svg>
                     </div>
-                    <span class="text">Comfort & Secure trip</span>
+                    <span class="text">{{ $t("explore.subtitle2") }}</span>
                   </div>
                   <p class="des wow fadeInUp animated">
-                    Welcome to our Print 128 wesit! company that offers a wide r
+                    {{ $t("explore.subtext2") }}
                   </p>
                 </div>
               </div>

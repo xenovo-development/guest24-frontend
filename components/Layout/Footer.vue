@@ -8,9 +8,7 @@
               <img src="/img/logo.png" alt="image" />
             </div>
             <p class="des-footer">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae quam dolore sunt amet qui ad nobis consequatur?
-              Doloremque, aperiam nesciunt!
+              {{ $t("footer.text") }}
             </p>
             <ul class="social flex-three">
               <li>
@@ -50,7 +48,7 @@
                 <a href="team.html">Team</a>
               </li>
               <li>
-                <a href="help-center.html">Help Center</a>
+                <nuxt-link :to="localePath('/faq')">FAQ</nuxt-link>
               </li>
               <li>
                 <a href="gallery.html">Gallery</a>
@@ -119,3 +117,4 @@
     </div>
   </footer>
 </template>
+<script setup></script>

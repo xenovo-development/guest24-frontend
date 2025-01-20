@@ -1960,6 +1960,10 @@
 .inner-content-about {
   padding-left: 6px;
 }
+.inner-content-about .des {
+  padding-bottom: 10px;
+  text-align: justify;
+}
 .inner-content-about .btn-wrap-about {
   margin-top: 37px;
   gap: 40px;
@@ -8043,7 +8047,7 @@
 .icon-box-style5 .des {
   font-size: 16px;
   font-weight: 400;
-  color: #4F545A;
+  color: #fff;
   line-height: 30.8px;
   margin-top: 18px;
 }
@@ -8760,6 +8764,7 @@
   border-radius: unset;
   background-color: #FFFFFF;
   box-shadow: 0 4px 21px 0px rgba(0, 0, 0, 0.08);
+  margin-bottom: 35px;
 }
 .faq-list .accordion-item:not(:last-child) {
   margin-bottom: 22px;

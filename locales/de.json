@@ -1,4 +1,11 @@
 {
+  "breadcrumb": {
+    "aboutus": "Über Uns",
+    "contact": "Kontakt",
+    "faq": "Häufig Gestellte Fragen",
+    "login": "Einloggen",
+    "signup": "Registrieren"
+  },
   "nav": {
     "home": "Zuhause",
     "about": "Über",
@@ -41,7 +48,7 @@
     "smokingallowed": "Rauchen erlaubt"
   },
   "adventure": {
-    "title":"GROßARTIGE MÖGLICHKEIT FÜR ABENTEUER & REISEN",
+    "title": "GROßARTIGE MÖGLICHKEIT FÜR ABENTEUER & REISEN",
     "subtitle1": "Die Welt in Ihren Fingerspitzen",
     "description1": "Zugang zu den besten Reisezielen mit exklusiven Vorteilen.",
     "subtitle2": "Reisen Sie klüger, bleiben Sie besser",

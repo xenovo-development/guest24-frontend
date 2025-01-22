@@ -1,4 +1,11 @@
 {
+  "breadcrumb": {
+    "aboutus": "About Us",
+    "contact": "Contact",
+    "faq": "Frequently Asked Questions",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
   "nav": {
     "home": "Home",
     "about": "About",
@@ -41,7 +48,7 @@
     "smokingallowed": "Smoking Allowed"
   },
   "adventure": {
-    "title":"GREAT OPPORTUNITY FOR ADVENTURE & TRAVELS",
+    "title": "GREAT OPPORTUNITY FOR ADVENTURE & TRAVELS",
     "subtitle1": "The World at Your Fingertips",
     "description1": "Gain access to the best travel destinations with exclusive perks.",
     "subtitle2": "Travel Smarter, Stay Better",

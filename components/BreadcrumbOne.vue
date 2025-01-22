@@ -8,7 +8,7 @@
         <div class="col-lg-12 center z-index1">
           <h1 class="title">{{ title }}</h1>
           <ul class="breadcumb-list flex-five">
-            <li><a href="index.html">Home</a></li>
+            <li><nuxt-link :to="localePath('/')">{{ $t("nav.home") }}</nuxt-link></li>
             <li>
               <span>{{ activePageName }}</span>
             </li>

@@ -1,18 +1,22 @@
 <template>
   <div>
     <BreadcrumbOne
-      activePageName="About"
-      title="About"
+      :activePageName="$t('breadcrumb.aboutus')"
+      :title="$t('breadcrumb.aboutus')"
       backgroundUrl="/img/slider.jpg"
     />
     <AboutOne />
     <!-- <WidgetServices />
     <CtaOne /> -->
-    <WidgetIgPost /> 
+    <WidgetIgPost />
     <HomeCta />
   </div>
 </template>
-
+<script>
+export default {
+  name: "AboutPage",
+};
+</script>
 <style>
 @import url("../public/assets/css/app.css");
 </style>

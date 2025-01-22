@@ -48,14 +48,14 @@
                   <div class="form-group flex">
                     <i class="icon-18"></i>
                     <div class="search-bar-group">
-                      <label>Destination</label>
+                      <label>{{ $t("slider.destination") }}</label>
                       <select
                         class="nice-select"
                         v-model="destination"
                         required
                       >
                         <option value="" disabled selected>
-                          Select a destination
+                          {{ $t("slider.selectadestination") }}
                         </option>
                         <option value="Vienna">Vienna</option>
                         <option value="Oakland Park">Oakland Park</option>
@@ -73,7 +73,7 @@
                   <div class="form-group flex">
                     <i class="icon-4"></i>
                     <div class="search-bar-group">
-                      <label>Check-in</label>
+                      <label>{{ $t("slider.checkin") }}</label>
                       <input
                         type="date"
                         class="search-input"
@@ -85,7 +85,7 @@
                   <div class="form-group flex">
                     <i class="icon-4"></i>
                     <div class="search-bar-group">
-                      <label>Check-out</label>
+                      <label>{{ $t("slider.checkout") }}</label>
                       <input
                         type="date"
                         class="search-input"
@@ -97,10 +97,10 @@
                   <div class="form-group flex">
                     <i class="icon-user"></i>
                     <div class="search-bar-group">
-                      <label>Guests</label>
+                      <label>{{ $t("slider.guests") }}</label>
                       <input
                         type="text"
-                        placeholder="Enter Guests"
+                        :placeholder="$t('slider.enterguests')"
                         class="search-input"
                         v-model="guests"
                         required
@@ -120,14 +120,14 @@
                       class="btn-search"
                       @click.prevent="handleSearch"
                     >
-                      <i class="icon-Vector5"></i> Search
+                      <i class="icon-Vector5"></i> {{ $t("slider.search") }}
                     </a>
                   </div>
                 </div>
                 <div class="wd-search-form" :class="{ show: isFilterClicked }">
                   <div class="input-group-grid">
                     <fieldset class="group-select relative">
-                      <label>Filter By Price</label>
+                      <label>{{ $t("slider.filterbyprice") }}</label>
                       <div class="widget widget-price">
                         <div id="slider-range"></div>
                         <div class="slider-labels">
@@ -144,7 +144,7 @@
                             />
                           </div>
                           <div class="caption flex-three">
-                            <p class="price-range">Price:</p>
+                            <p class="price-range">{{ $t("slider.price") }}</p>
                             <div class="number-range">
                               <span id="slider-range-value1"></span>
                               <span id="slider-range-value2"></span>
@@ -196,7 +196,9 @@
                           type="checkbox"
                           v-model="additionalFilters.acceptsCreditCards"
                         />
-                        <label for="check4">Accepts Credit Cards</label>
+                        <label for="check4">{{
+                          $t("slider.acceptscreditcards")
+                        }}</label>
                       </div>
                       <div class="checkbox">
                         <input
@@ -204,7 +206,9 @@
                           type="checkbox"
                           v-model="additionalFilters.carParking"
                         />
-                        <label for="check5">Car Parking</label>
+                        <label for="check5">{{
+                          $t("slider.carparking")
+                        }}</label>
                       </div>
                     </div>
                     <div class="group-check-box-wrap">
@@ -214,7 +218,9 @@
                           type="checkbox"
                           v-model="additionalFilters.freeCoupons"
                         />
-                        <label for="check6">Free Coupons</label>
+                        <label for="check6">{{
+                          $t("slider.freecoupons")
+                        }}</label>
                       </div>
                       <div class="checkbox">
                         <input
@@ -222,7 +228,9 @@
                           type="checkbox"
                           v-model="additionalFilters.laundryService"
                         />
-                        <label for="check7">Laundry Service</label>
+                        <label for="check7">{{
+                          $t("slider.laundryservice")
+                        }}</label>
                       </div>
                     </div>
                     <div class="group-check-box-wrap">
@@ -232,7 +240,9 @@
                           type="checkbox"
                           v-model="additionalFilters.outdoorSeating"
                         />
-                        <label for="check8">Outdoor Seating</label>
+                        <label for="check8">{{
+                          $t("slider.outdoorseating")
+                        }}</label>
                       </div>
                       <div class="checkbox">
                         <input
@@ -240,7 +250,9 @@
                           type="checkbox"
                           v-model="additionalFilters.reservations"
                         />
-                        <label for="check9">Reservations</label>
+                        <label for="check9">{{
+                          $t("slider.reservations")
+                        }}</label>
                       </div>
                     </div>
                     <div class="group-check-box-wrap">
@@ -250,7 +262,9 @@
                           type="checkbox"
                           v-model="additionalFilters.restaurant"
                         />
-                        <label for="check10">Restaurant</label>
+                        <label for="check10">{{
+                          $t("slider.restaurant")
+                        }}</label>
                       </div>
                       <div class="checkbox">
                         <input
@@ -258,7 +272,9 @@
                           type="checkbox"
                           v-model="additionalFilters.smokingAllowed"
                         />
-                        <label for="check11">Smoking Allowed</label>
+                        <label for="check11">{{
+                          $t("slider.smokingallowed")
+                        }}</label>
                       </div>
                     </div>
                   </div>
@@ -269,20 +285,16 @@
               <ul class="flex-five">
                 <li>
                   <i class="icon-Vector-5"></i>
-                  <span>{{
-                    $t("slider.subtext1")
-                  }}</span>
+                  <span>{{ $t("slider.subtext1") }}</span>
                 </li>
                 <li>
                   <i class="icon-Vector-5"></i>
-                  <span>{{
-                    $t("slider.subtext2")
-                  }}</span>                </li>
+                  <span>{{ $t("slider.subtext2") }}</span>
+                </li>
                 <li>
                   <i class="icon-Vector-5"></i>
-                  <span>{{
-                    $t("slider.subtext3")
-                  }}</span>                </li>
+                  <span>{{ $t("slider.subtext3") }}</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -293,7 +305,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted } from 'vue';
+import { ref, reactive, onMounted } from "vue";
 
 const destination = ref("");
 const checkIn = ref("");

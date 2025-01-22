@@ -1,7 +1,7 @@
 <template>
   <div>
     <HomeSlider />
-    <HomeBanner />
+    <!-- <HomeBanner /> -->
     <HomeAbout />
     <HomeActivities />
     <HomeFeature />

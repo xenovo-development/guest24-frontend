@@ -6,9 +6,9 @@
       backgroundUrl="/img/slider.jpg"
     />
     <AboutOne />
-    <WidgetServices />
-    <CtaOne />
-    <WidgetIgPost />
+    <!-- <WidgetServices />
+    <CtaOne /> -->
+    <WidgetIgPost /> 
     <HomeCta />
   </div>
 </template>

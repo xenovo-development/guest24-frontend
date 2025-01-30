@@ -3,6 +3,14 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/i18n","nuxt-swiper"],
   app: {
     head: {
+      htmlAttrs: {
+        lang: "tr",
+      },  
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" }
+      ],
       title: "Guest24 - To find the unforgettable",
       link: [
         { rel: "icon", type: "image/x-icon", href: "/img/favicon.png" },
@@ -40,7 +48,7 @@ export default defineNuxtConfig({
       { code: "de", iso: "de-DE", name: "German", file: "de.json" },
       { code: "tr", iso: "tr-TR", name: "Turkish", file: "tr.json" }
     ],
-    defaultLocale: "en",
+    defaultLocale: "tr",
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",

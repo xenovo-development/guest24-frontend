@@ -4,7 +4,8 @@
     "contact": "Kontakt",
     "faq": "Häufig Gestellte Fragen",
     "login": "Einloggen",
-    "signup": "Registrieren"
+    "signup": "Registrieren",
+    "myprofile": "Mein Profil"
   },
   "nav": {
     "home": "Zuhause",
@@ -23,7 +24,8 @@
     "languageName": "Deutsch"
   },
   "slider": {
-    "title": "Das unvergessliche finden",
+    "title": "Um das Unvergessliche zu finden,",
+    "titletwo": "Bist du am richtigen Ort.",
     "subtext1": "Beste Apartments",
     "subtext2": "Exklusive Rabatte",
     "subtext3": "Exklusive Unterkünfte",
@@ -102,6 +104,22 @@
     "text4": "Dank unseres Portfolios von Dutzenden von Apartments in Istanbul, Wien, Florida, Nordzypern und Hadersdorf am Kamp bringen wir Apartments zusammen, die mit ihrer Lage, Ausstattung und ihren Lebensstandards alles bieten, was für ein unvergessliches Unterkunftserlebnis erforderlich ist, und das für unsere geschätzten Gäste, von denen wir wissen, dass sie sich nicht mit weniger als Perfektion zufriedengeben.",
     "text5": "Denn Guest24 existiert, um Sie über das Gewöhnliche hinauszuführen...",
     "text6": "Guest24 wählt private Häuser von privaten Gastgebern aus und bietet sie Mitgliedern der exklusiven Gäste-Community mit speziellen Angeboten und Rabatten an. So haben Sie Anspruch auf eine Reihe von Vorteilen und Rabatten, die Ihren Aufenthalt auf neue Luxus-Niveaus heben, während Sie exklusiven Zugang zu Hospitality-Schätzen genießen, die für gewöhnliche Reisende verborgen bleiben. Unser Glaube an die Bedeutung, unsere geschätzten Gäste zu belohnen, macht sowohl Guest24 als auch Ihr Unterkunftserlebnis einzigartig."
+  },
+  "myprofile": {
+    "myprofile": "Mein Profil",
+    "avatar": "Avatar:",
+    "uploadavatar": "Einen neuen Avatar hochladen",
+    "infoavatar": "Png, Jpg, Svg Dimension (300*350), maximale Dateigröße nicht mehr als 4 MB",
+    "userinfo": "Benutzerinformationen",
+    "name": "Vorname",
+    "surname": "Nachname",
+    "phone": "Telefon",
+    "email": "E-Mail-Adresse*",
+    "passwordchange": "Passwortänderungsanfrage",
+    "newpassword": "Neues Passwort",
+    "renewpassword": "Neues Passwort erneut eingeben",
+    "notepassword": "*Hinweis: Sie können Ihr Passwort bis zu 10 Mal im Jahr ändern",
+    "savebtn": "Änderungen speichern"
   },
   "faq": [
     {

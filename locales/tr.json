@@ -4,7 +4,8 @@
     "contact": "İletişim",
     "faq": "Sıkça Sorulan Sorular",
     "login": "Oturum Açın",
-    "signup": "Kaydolun"
+    "signup": "Kaydolun",
+    "myprofile": "Profilim"
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -22,7 +23,8 @@
     "languageName": "Türkçe"
   },
   "slider": {
-    "title": "Unutulmazı bulmak için",
+    "title": "Unutulmazı bulmak için,",
+    "titletwo": "Doğru yerdesin",
     "subtext1": "En iyi apartmanlar",
     "subtext2": "Size özel indirimler",
     "subtext3": "Ayrıcalıklı bir konaklama",
@@ -99,6 +101,22 @@
     "text4": "İstanbul, Viyana, Florida, Kuzey Kıbrıs ve Hadersdorf am Kamp'ta onlarca daireden oluşan portföyümüz sayesinde konumu, özellikleri ve yaşam standartlarıyla unutulmaz bir konaklama deneyimi için gerekli her şeye sahip daireleri, mükemmelden daha azına razı olmayacağını bildiğimiz siz değerli misafirlerimizle buluşturuyoruz.",
     "text5": "Çünkü Guest24 sizi sıradanlığın ötesine taşımak için var...",
     "text6": "Guest24, özel ev sahiplerinden özel evler seçer ve bunları özel teklifler ve indirimlerle elit misafir topluluğunun üyelerine sunar. Böylece, konaklamanızı lüksün yeni zirvelerine taşıyan bir dizi avantaj ve indirim hakkına sahip olurken, sıradan gezginler için gizli kalmış konukseverlik mücevherlerine özel erişimin tadını çıkarırsınız. Değerli misafirlerimizi ödüllendirmenin önemine olan inancımız, hem Guest24'ü hem de konaklama deneyiminizi benzersiz kılmaktadır."
+  },
+  "myprofile": {
+    "myprofile": "Profilim",
+    "avatar": "Avatar:",
+    "uploadavatar": "Yeni bir avatar yükle",
+    "infoavatar": "Png, Jpg, Svg boyut (300*350), maksimum dosya boyutu 4 MB'yi geçmemelidir",
+    "userinfo": "Kullanıcı Bilgileri",
+    "name": "Ad",
+    "surname": "Soyad",
+    "phone": "Telefon",
+    "email": "E-posta adresi*",
+    "passwordchange": "Şifre Değişiklik Talebi",
+    "newpassword": "Yeni Şifre",
+    "renewpassword": "Yeni Şifreyi Yeniden Girin",
+    "notepassword": "*Not: Şifrenizi yılda en fazla 10 kez değiştirebilirsiniz",
+    "savebtn": "Değişiklikleri Kaydet"
   },
   "faq": [
     {

@@ -31,14 +31,8 @@
             <h1
               class="banner-text title-slide text-white mb-45 wow fadeInUp animated"
             >
-              Lorem
-              <span class="animationtext clip text-main font-yes text-main">
-                <span class="cd-words-wrapper">
-                  <span class="item-text is-visible">{{ currentText }}</span>
-                </span>
-              </span>
-              & <br />
-              consectetur adipisicing.
+            {{ $t("slider.title") }}
+            <br/>{{ $t("slider.titletwo") }}
             </h1>
             <div
               class="search-form-widget-slider relative wow fadeInUp animated"
@@ -46,7 +40,7 @@
               <form action="/" id="search-form-slider">
                 <div class="flex wd-search">
                   <div class="form-group flex">
-                    <i class="icon-18"></i>
+                    <img src="/img/icons/destinations.png" alt="">
                     <div class="search-bar-group">
                       <label>{{ $t("slider.destination") }}</label>
                       <select
@@ -71,7 +65,7 @@
                     </div>
                   </div>
                   <div class="form-group flex">
-                    <i class="icon-4"></i>
+                    <img src="/img/icons/checkin-checkout.png" alt="">
                     <div class="search-bar-group">
                       <label>{{ $t("slider.checkin") }}</label>
                       <input
@@ -83,7 +77,7 @@
                     </div>
                   </div>
                   <div class="form-group flex">
-                    <i class="icon-4"></i>
+                    <img src="/img/icons/checkin-checkout.png" alt="">
                     <div class="search-bar-group">
                       <label>{{ $t("slider.checkout") }}</label>
                       <input
@@ -95,7 +89,7 @@
                     </div>
                   </div>
                   <div class="form-group flex">
-                    <i class="icon-user"></i>
+                    <img src="/img/icons/guests.png" alt="">
                     <div class="search-bar-group">
                       <label>{{ $t("slider.guests") }}</label>
                       <input

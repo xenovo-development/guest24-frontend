@@ -2,7 +2,7 @@
   <!-- Widget Feature -->
   <section class="widget-feature overflow-hidden pd-main relative">
     <div class="bg-ab-feature bg-1">
-      <img src="/img/page/bg-feature.png" alt="" />
+      <img src="/img/page/back-1.png" alt="" />
     </div>
     <div class="tf-container w-1456 z-index3 relative">
       <div class="row">

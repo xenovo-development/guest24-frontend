@@ -4,7 +4,8 @@
     "contact": "Contact",
     "faq": "Frequently Asked Questions",
     "login": "Log In",
-    "signup": "Sign Up"
+    "signup": "Sign Up",
+    "myprofile": "My Profile"
   },
   "nav": {
     "home": "Home",
@@ -23,7 +24,8 @@
     "languageName": "English"
   },
   "slider": {
-    "title": "To find the unforgettable",
+    "title": "To find the unforgettable,",
+    "titletwo": "You are in the right place.",
     "subtext1": "Best apartments",
     "subtext2": "Exclusive discounts",
     "subtext3": "Exclusive accommodation",
@@ -85,7 +87,7 @@
   },
   "testimonial": {
     "testimonial": "Testimonial",
-    "title": "Finders of the Unforgettable"
+    "title": "Those Who Find the Unforgettable"
   },
   "blog": {
     "blog": "Blog",
@@ -102,6 +104,22 @@
     "text4": "Thanks to our portfolio of dozens of apartments in Istanbul, Vienna, Florida, Northern Cyprus and Hadersdorf am Kamp, we bring together apartments that have everything necessary for an unforgettable accommodation experience with their location, features and living standards with our valued guests who we know will not settle for anything less than perfect.",
     "text5": "Because Guest24 exists to take you beyond the ordinary...",
     "text6": "Guest24 selects private homes from private hosts and offers them to members of the elite guest community with special offers and discounts. Thus, you are entitled to a range of benefits and discounts that take your stay to new heights of luxury, while enjoying exclusive access to hospitality gems hidden away for the ordinary traveler. Our belief in the importance of rewarding our valued guests makes both Guest24 and your accommodation experience unique."
+  },
+  "myprofile": {
+    "myprofile": "My Profile",
+    "avatar": "Avatar:",
+    "uploadavatar": "Upload a new Avatar",
+    "infoavatar": "Png, Jpg, Svg dimension (300*350) max file size not more than 4 MB",
+    "userinfo": "User Information",
+    "name": "First name",
+    "surname": "Last Name",
+    "phone": "Phone",
+    "email": "Email address*",
+    "passwordchange": "Password Change Request",
+    "newpassword": "New Password",
+    "renewpassword": "Re-type New Password",
+    "notepassword": "*Note: you can change your password up to 10 times in a year",
+    "savebtn": "Save Changes"
   },
   "faq": [
     {

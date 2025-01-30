@@ -34,9 +34,6 @@
                   <a href="#"><i class="icon-Group-131"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="icon-x"></i></a>
-                </li>
-                <li>
                   <a href="#"><i class="icon-icon"></i></a>
                 </li>
               </ul>
@@ -45,7 +42,7 @@
         </div>
       </div>
       <div class="header-lower">
-        <div class="tf-container full">
+        <div class="tf-container ">
           <div class="row">
             <div class="col-lg-12">
               <div class="inner-container flex justify-space align-center">

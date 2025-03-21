@@ -121,6 +121,19 @@
     "notepassword": "*Note: you can change your password up to 10 times in a year",
     "savebtn": "Save Changes"
   },
+  "contact": {
+    "title": "Get in Touch",
+    "text": "We are here to make your travel experience more enjoyable and comfortable! You can always contact us for any questions or reservation requests regarding Guest24.",
+    "titletwo": "Fill Up The Form",
+    "texttwo": "To ensure a prompt response, you can fill out our contact form or send us an email directly. As the Guest24 team, we are here to provide you with the best service!",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone Number",
+    "emailLabel": "Mail Address",
+    "name": "Your Name*",
+    "email": "Email Address*",
+    "message": "Enter Your Message here",
+    "submit": "Send Message"
+  },
   "faq": [
     {
       "question": "How can I make a reservation with Guest24?",

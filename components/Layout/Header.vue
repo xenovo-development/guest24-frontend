@@ -109,7 +109,7 @@
                           }}</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link :to="localePath('/')">{{
+                          <nuxt-link :to="localePath('/blogs/')">{{
                             $t("nav.news")
                           }}</nuxt-link>
                         </li>

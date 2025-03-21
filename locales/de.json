@@ -121,6 +121,19 @@
     "notepassword": "*Hinweis: Sie können Ihr Passwort bis zu 10 Mal im Jahr ändern",
     "savebtn": "Änderungen speichern"
   },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "text": "Wir sind hier, um Ihr Reiseerlebnis noch angenehmer und komfortabler zu gestalten! Sie können uns jederzeit bei Fragen oder Reservierungsanfragen zu Guest24 kontaktieren.",
+    "titletwo": "Formular ausfüllen",
+    "texttwo": "Um eine schnelle Rückmeldung zu erhalten, können Sie unser Kontaktformular ausfüllen oder uns direkt eine E-Mail senden. Das Guest 24-Team ist für Sie da, um den bestmöglichen Service zu bieten!",
+    "addressLabel": "Adresse",
+    "phoneLabel": "Telefonnummer",
+    "emailLabel": "E-Mail-Adresse",
+    "name": "Ihr Name*",
+    "email": "Ihre E-Mail-Adresse*",
+    "message": "Geben Sie hier Ihre Nachricht ein",
+    "submit": "Nachricht senden"
+  },
   "faq": [
     {
       "question": "Wie kann ich eine Buchung bei Guest24 vornehmen?",

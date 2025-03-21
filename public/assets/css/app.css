@@ -3951,9 +3951,8 @@
   padding: 61px 40px 54px 40px;
   box-shadow: 0px 15px 10px 0px rgba(242, 242, 242, 0.18);
 }
-.contact-us .box-contact .icon {
-  color: #3BBA95;
-  height: 71px;
+.contact-us .box-contact img {
+  width: 45px;
 }
 .contact-us .box-contact span {
   font-size: 24px;
@@ -4526,6 +4525,7 @@
   /* margin-left: 320px; */
   transition: all 0.2s ease-out;
 }
+
 .has-dashboard.actives {
   margin-left: 70px;
 }
@@ -10096,6 +10096,11 @@ body .dribbble img {
   }
   .widget-feature .image-feature-wrap .exploring {
     left: 7%;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .has-dashboard {
+    margin-top: 70px;
   }
 }
 @media only screen and (max-width: 1570px) {

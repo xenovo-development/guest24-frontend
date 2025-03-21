@@ -118,6 +118,19 @@
     "notepassword": "*Not: Şifrenizi yılda en fazla 10 kez değiştirebilirsiniz",
     "savebtn": "Değişiklikleri Kaydet"
   },
+  "contact": {
+    "title": "Bizimle İletişime Geçin",
+    "text": "Seyahat deneyiminizi daha keyifli ve konforlu hale getirmek için buradayız! Guest 24 ile ilgili sorularınız, rezervasyon talepleriniz  için bizimle her zaman iletişime geçebilirsiniz.",
+    "titletwo": "Formu Doldurun",
+    "texttwo": "Size en kısa sürede geri dönüş yapabilmemiz için iletişim formumuzu doldurabilir veya doğrudan e-posta gönderebilirsiniz. Guest 24 ekibi olarak, sizlere en iyi hizmeti sunmak için buradayız!",
+    "addressLabel": "Adres",
+    "phoneLabel": "Telefon Numarası",
+    "emailLabel": "E-Posta Adresi",
+    "name": "Adınız*",
+    "email": "E-Posta Adresiniz*",
+    "message": "Mesajınızı buraya girin",
+    "submit": "Mesaj Gönder"
+  },
   "faq": [
     {
       "question": "Guest24 ile nasıl rezervasyon yapabilirim?",
